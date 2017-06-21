@@ -13,7 +13,7 @@ gem 'mysql2', '>= 0.3.18', '< 0.5'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', github: 'rails/sass-rails'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -28,7 +28,7 @@ gem 'orm_adapter', '~> 0.5.0'
 gem 'responders', '~> 2.4'
 gem 'warden', '~> 1.2', '>= 1.2.7'
 gem 'arbre', '~> 1.1', '>= 1.1.1'
-gem 'bourbon', '~> 4.3', '>= 4.3.4'
+
 gem 'formtastic', '~> 3.1', '>= 3.1.5'
 gem 'formtastic_i18n', '~> 0.6.0'
 gem 'inherited_resources', '~> 1.7', '>= 1.7.2'
@@ -42,9 +42,11 @@ gem 'font-awesome-rails'
 gem 'sass', '~> 3.4', '>= 3.4.24'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'autoprefixer-rails', '~> 7.1', '>= 7.1.1.2'
-gem 'sprockets', '~> 3.7', '>= 3.7.1'
-
-
+gem 'sprockets', '~> 4.0.0.beta4'
+gem 'arbre', '~> 1.1', '>= 1.1.1'
+gem 'ejs', '~> 1.1', '>= 1.1.1'
+gem 'active_admin_editor', github: 'ejholmes/active_admin_editor'
+gem 'bourbon', '3.0.1'
 # Use jquery as the JavaScript library
 
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
